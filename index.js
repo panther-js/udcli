@@ -3,7 +3,7 @@
 const udcli = require('./lib/ud-cli');
 const argsHandler = require('./lib/args-handler');
 
-const term = argsHandler.grabArgs(process.argv, '--t');
+const term = argsHandler.grabArgs(process.argv);
 
 if (term) {
   udcli(term)
