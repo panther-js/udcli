@@ -1,12 +1,12 @@
 'use strict';
 
-let help = require('./lib/ud-cli');
-let argsHandler = require('./lib/args-handler');
+const udcli = require('./lib/ud-cli');
+const argsHandler = require('./lib/args-handler');
 
-let term = argsHandler.grabArgs(process.argv, '--t');
+const term = argsHandler.grabArgs(process.argv, '--t');
 
 if (term) {
-  help(term)
+  udcli(term)
     .then((data) => console.log(JSON.parse(data).list[0].definition))
     .catch((error) => console.log(error));
 }
