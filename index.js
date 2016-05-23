@@ -7,6 +7,6 @@ const term = argsHandler.grabArgs(process.argv);
 
 if (term) {
   udcli(term)
-    .then((data) => console.log(JSON.parse(data).list[0].definition))
-    .catch((error) => console.log(error));
+    .then(data => console.log(JSON.parse(data).list[0].definition))
+    .catch(error => console.log(error));
 }

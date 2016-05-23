@@ -1,11 +1,14 @@
 {
   "name": "udcli",
   "version": "1.0.0",
-  "description": "a urban dictionary cli.",
+  "description": "A urban dictionary cli.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test/*-test.js"
   },
   "author": "helio frota",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
 }
