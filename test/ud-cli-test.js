@@ -3,7 +3,7 @@
 const test = require('tape');
 const udcli = require('../lib/ud-cli');
 
-test('The client should get information from urban dictionary.', (t) => {
+test('The client should get information from urban dictionary.', t => {
 
   udcli('lgtm')
     .then(data => {
