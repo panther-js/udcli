@@ -1,6 +1,6 @@
 {
   "name": "udcli",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A urban dictionary cli.",
   "main": "index.js",
   "homepage": "https://github.com/helio-frota/udcli#readme",
