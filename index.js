@@ -8,9 +8,7 @@ if (process.argv.length === 3) {
       resp.on('data', d => body.push(d));
       resp.on('end', () => reso(body));
     }).on('error', e => rej(e));
-  })
-    .then(d => console.log(JSON.parse(d).list[0].definition))
-    .catch(e => console.log(e));
+  }).then(d => console.log(JSON.parse(d).list[0].definition)).catch(e => console.log(e));
 
 } else {
   console.log('Usage: node index search_term_here');
