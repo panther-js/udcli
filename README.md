@@ -2,7 +2,7 @@
 
 A nodejs urban dictionary cli.
 
-    git clone https://github.com/helio-frota/udcli.git
+    git clone https://github.com/panther-js/udcli.git
     cd udcli
 
 #### Example
