@@ -2,15 +2,15 @@
 
 if (process.argv.length === 3) {
 
-  const url = 'http://api.urbandictionary.com/v0/define?term=' + process.argv[2];
+  let url = 'http://api.urbandictionary.com/v0/define?term=' + process.argv[2];
 
   const udcli = () => {
     return new Promise((reso, rej) => {
-      require('http').get(url, (resp) => {
-        const body = [];
+      require('http').get(url, resp => {
+        let body = [];
         resp.on('data', d => body.push(d));
-        resp.on('end', () => reso(body.join('')));
-      }).on('error', (error) => rej(error));
+        resp.on('end', () => reso(body));
+      }).on('error', e => rej(e));
     });
   };
 
