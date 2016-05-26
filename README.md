@@ -2,6 +2,9 @@
 
 A nodejs urban dictionary cli.
 
+    git clone https://github.com/helio-frota/udcli.git
+    cd udcli
+
 #### Example
 
     node index lgtm
@@ -28,3 +31,5 @@ if (process.argv.length === 3) {
   console.log('Usage: node index search_term_here');
 }
 ```
+
+##### Contribute to make this ^ smaller
