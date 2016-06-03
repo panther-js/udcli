@@ -5,7 +5,6 @@ let roi = require('roi');
 if (process.argv.length === 3) {
 
   let url = '/v0/define?term=' + process.argv[2];
-
   let opts = { host: 'api.urbandictionary.com' };
 
   roi(opts).get(url)
