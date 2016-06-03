@@ -9,5 +9,8 @@
     "url": "https://github.com/panther-js/udcli.git"
   },
   "author": "helio frota",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "roi": "^0.1.0"
+  }
 }
