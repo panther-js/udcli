@@ -11,6 +11,6 @@
   "author": "helio frota",
   "license": "MIT",
   "dependencies": {
-    "roi": "^0.1.0"
+    "roi": "^0.7.0"
   }
 }
