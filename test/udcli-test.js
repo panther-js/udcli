@@ -4,11 +4,6 @@
 const test = require('tape');
 const roi = require('roi');
 
-
-  const options = {
-    'endpoint': 'http://api.urbandictionary.com/v0/define?term=lgtm'
-  };
-
 test('Should be equal Looks Good To Me ', t => {
 	const options = {
     'endpoint': 'http://api.urbandictionary.com/v0/define?term=lgtm'
