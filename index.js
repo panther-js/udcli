@@ -6,7 +6,7 @@ if (process.argv.length === 3) {
 
   const options = {
     'endpoint': 'http://api.urbandictionary.com/v0/define?term=' + process.argv[2]
-  }
+  };
   
   roi.get(options)
     .then(x => console.log(JSON.parse(x).list[0].definition))
