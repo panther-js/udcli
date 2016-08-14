@@ -1,7 +1,7 @@
 # udcli
 
 A nodejs urban dictionary cli.
-
+[![Build Status](https://travis-ci.org/panther-js/udcli.svg?branch=master)](https://travis-ci.org/pantherjs/udcli)
     git clone https://github.com/panther-js/udcli.git
     cd udcli
 
