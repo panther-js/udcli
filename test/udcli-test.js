@@ -1,6 +1,5 @@
 'use strict';
 
-
 const test = require('tape');
 const roi = require('roi');
 
