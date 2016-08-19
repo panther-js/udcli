@@ -9,7 +9,7 @@ if (process.argv.length === 3) {
   };
   
   roi.get(options)
-    .then(x => console.log(JSON.parse(x).list[0].definition))
+    .then(x => console.log(JSON.parse(x.body).list[0].definition))
     .catch(e => console.log(e));
 
 } else {
