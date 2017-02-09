@@ -1,5 +1,7 @@
 # udcli [![Build Status](https://travis-ci.org/panther-js/udcli.svg?branch=master)](https://travis-ci.org/panther-js/udcli)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/panther-js/udcli.svg)](https://greenkeeper.io/)
+
 A nodejs urban dictionary cli.
     git clone https://github.com/panther-js/udcli.git
     cd udcli
