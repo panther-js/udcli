@@ -10,7 +10,6 @@
   },
   "scripts": {
     "lint": "eslint index.js test/*.js",
-    "prepublish": "nsp check",
     "test": "tape test/udcli-test.js"
   },
   "author": "Helio Frota",
@@ -25,7 +24,6 @@
     "eslint-plugin-promise": "^3.4.1",
     "eslint-plugin-react": "^6.1.2",
     "eslint-plugin-standard": "^2.0.0",
-    "nsp": "^2.6.1",
     "tape": "^4.6.0"
   }
 }
