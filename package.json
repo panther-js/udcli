@@ -9,11 +9,11 @@
     "url": "https://github.com/panther-js/udcli.git"
   },
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint index.js test/*.js",
     "prepublish": "nsp check",
     "test": "tape test/udcli-test.js"
   },
-  "author": "helio frota",
+  "author": "Helio Frota",
   "license": "MIT",
   "dependencies": {
     "roi": "^0.15.0"
