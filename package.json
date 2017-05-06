@@ -9,7 +9,6 @@
     "url": "https://github.com/panther-js/udcli.git"
   },
   "scripts": {
-    "lint": "eslint index.js test/*.js",
     "test": "tape test/udcli-test.js"
   },
   "author": "Helio Frota",
