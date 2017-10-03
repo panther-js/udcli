@@ -5,33 +5,32 @@
 
 A nodejs urban dictionary cli.
 
-### How to run
+### Install
 
-```bash
-git clone https://github.com/panther-js/udcli.git
-cd udcli
-npm install
-node index lgtm
+```console
+npm install udcli -g
 ```
 
 #### Example
 
-    node index lgtm
-    
-    An acronym for "Looks Good To Me", often used as a quick response after reviewing someone's essay, 
-    code, or design document.
+```console
+$ udcli lgtm
+
+An acronym for "Looks Good To Me", often used as a quick response after reviewing someone's essay, 
+code, or design document.
+```
 
 #### Full source code:
 
 ```js
-'use strict';
+#! /usr/bin/env node
 
 if (process.argv.length === 3) {
-  require('roi')
-    .get({ endpoint: `http://api.urbandictionary.com/v0/define?term=${process.argv[2]}` })
-    .then(response => console.log(JSON.parse(response.body).list[0].definition))
-    .catch(console.log);
+    require('roi')
+        .get({ endpoint: `http://api.urbandictionary.com/v0/define?term=${process.argv[2]}` })
+        .then(response => console.log(JSON.parse(response.body).list[0].definition))
+        .catch(console.log);
 } else {
-  console.log('Usage: node index search_term_here');
+    console.log('Usage: node index search_term_here');
 }
 ```
