@@ -2,7 +2,7 @@
   "name": "udcli",
   "version": "2.1.1",
   "description": "A urban dictionary cli.",
-  "main": "index.js",
+  "main": "bin/udcli",
   "homepage": "https://github.com/panther-js/udcli#readme",
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   },
   "devDependencies": {
     "tape": "~4.6.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "udcli": "./bin/udcli"
   }
 }
