@@ -1,6 +1,6 @@
 {
   "name": "udcli",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "A urban dictionary cli.",
   "main": "bin/udcli",
   "homepage": "https://github.com/panther-js/udcli#readme",
