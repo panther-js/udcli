@@ -14,7 +14,7 @@
   "author": "Helio Frota",
   "license": "MIT",
   "dependencies": {
-    "roi": "0.17.0"
+    "roi": "0.18.0"
   },
   "devDependencies": {
     "jest": "^22.0.4"
