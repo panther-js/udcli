@@ -34,5 +34,3 @@ if (process.argv.length === 3) {
     console.log('Usage: node index search_term_here');
 }
 ```
-
-
