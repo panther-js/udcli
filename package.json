@@ -17,7 +17,7 @@
     "roi": "0.17.0"
   },
   "devDependencies": {
-    "jest": "^22.0.4"
+    "jest": "^24.1.0"
   },
   "preferGlobal": true,
   "bin": {
